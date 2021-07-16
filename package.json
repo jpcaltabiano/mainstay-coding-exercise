@@ -1,0 +1,44 @@
+{
+  "name": "mainstay-exercise",
+  "version": "0.1.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "dev": "nodemon --ignore 'db.json' server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^5.0.2",
+    "bootstrap-icons": "^1.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "lowdb": "^2.1.0",
+    "node-fetch": "^2.6.1",
+    "npm": "^7.20.0",
+    "parcel-bundler": "^1.12.5",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "babel-preset-nano-react-app": "^0.1.0",
+    "nodemon": "^2.0.12",
+    "parcel": "^2.0.0-nightly.769"
+  },
+  "resolutions": {
+    "@babel/core": "7.13.15",
+    "@babel/preset-env": "7.13.15"
+  },
+  "babel": {
+    "presets": [
+      "nano-react-app"
+    ]
+  }
+}
